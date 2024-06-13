@@ -2,8 +2,8 @@ name: Rotate Google Maps API Key
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 2 * * *' # Runs daily at 2 AM UTC
+  # schedule:
+  #   - cron: '0 2 * * *' # Runs daily at 2 AM UTC
 
 jobs:
   rotate-key:
